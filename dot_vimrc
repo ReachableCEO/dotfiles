@@ -1,0 +1,42 @@
+"General creature comforts I just can't live without.
+syntax on
+set ai
+set tabstop=4
+set number
+set paste
+set hidden
+set history=10000
+set showmatch
+set incsearch
+set foldenable
+set nowrap
+"set spell spelllang=en_us
+set laststatus=2
+
+"Color stuff, cause when you hax for hours, it's nice to have good colors
+set background=dark
+"colorscheme lucid
+
+"Infect me.... useful plugins. yay pathogen
+"iexecute pathogen#infect()
+filetype plugin indent on
+
+"Other plugins
+
+"Need to figure out a better way to do this, hence why it's commented
+"Safety first
+"set backup                  " Backups are nice ...
+"        if has('persistent_undo')
+"            set undofile                " So is persistent undo ...
+"            set undolevels=1000         " Maximum number of changes that can be undone
+"            set undoreload=10000        " Maximum number lines to save for undo on a buffer reload
+
+
+
+"Always show statusline
+set laststatus=2
+
+"Use 256 colours (Use this setting only if your terminal supports 256 colours)
+set t_Co=256
+
+
