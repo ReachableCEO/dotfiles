@@ -9,3 +9,5 @@ INBAND_USER="charlesnw"
 PERSONAL_OOB_USER="root"
 PERSONAL_INBAND_USER="root"
 #####################################################
+
+export ATUIN_SYNC_ADDRESS=http://charlesdevserver.knel.net:2003
