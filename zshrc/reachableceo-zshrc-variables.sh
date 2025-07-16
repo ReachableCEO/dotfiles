@@ -11,3 +11,4 @@ PERSONAL_INBAND_USER="root"
 #####################################################
 
 export ATUIN_SYNC_ADDRESS=http://charlesdevserver.knel.net:2003
+export LANG=en_US.UTF-8
