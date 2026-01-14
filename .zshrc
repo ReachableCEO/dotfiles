@@ -70,7 +70,7 @@ unsetopt    sharehistory
 TIMEFMT=$'\nreal\t%E\nuser\t%U\nsys\t%S\ncpu\t%P' # configure `time` format
 
 
-# make less more friendly for non-text input files, see lesspipe(1)
+# make less friendlier for non-text input files, see lesspipe(1)
 #[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # set variable identifying the chroot you work in (used in the prompt below)
@@ -287,5 +287,12 @@ fi
 eval "$(mise activate zsh)"
 ###################################
 
-source ~/Env/dotfiles/zshrc/reachableceo-zshrc-variables.sh
-source ~/Env/dotfiles/zshrc/reachableceo-zshrc-aliases.sh
+#source ~/Env/dotfiles/zshrc/reachableceo-zshrc-variables.sh
+#source ~/Env/dotfiles/zshrc/reachableceo-zshrc-aliases.sh
+
+set -o vi
+
+export SSH_AUTH_SOCK=/home/charles/.bitwarden-ssh-agent.sock
+
+. "$HOME/.cargo/env"
+
