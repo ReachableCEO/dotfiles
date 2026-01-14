@@ -11,17 +11,24 @@ set incsearch
 set foldenable
 set nowrap
 "set spell spelllang=en_us
+"Always show statusline
 set laststatus=2
 
 "Color stuff, cause when you hax for hours, it's nice to have good colors
+
 set background=dark
+
+"Use 256 colours (Use this setting only if your terminal supports 256 colours)
+set t_Co=256
+
+
 "colorscheme lucid
+
+"Other plugins
 
 "Infect me.... useful plugins. yay pathogen
 "iexecute pathogen#infect()
-filetype plugin indent on
-
-"Other plugins
+"filetype plugin indent on
 
 "Need to figure out a better way to do this, hence why it's commented
 "Safety first
@@ -33,10 +40,5 @@ filetype plugin indent on
 
 
 
-"Always show statusline
-set laststatus=2
-
-"Use 256 colours (Use this setting only if your terminal supports 256 colours)
-set t_Co=256
 
 
