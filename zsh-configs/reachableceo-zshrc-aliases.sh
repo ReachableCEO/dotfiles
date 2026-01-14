@@ -106,7 +106,6 @@ alias hb='habitctl'
 
 alias s='ssh'
 
-#alias history='history -f'
 alias vi='vim'
 
 alias id0='sudo -i'
